@@ -1,0 +1,87 @@
+const contacts = [
+  {
+    id: 100,
+    firstName: "Maximo",
+    lastName: "Zieme",
+    email: "Lorenz67@yahoo.com",
+    phoneNumber: "357-751-0675",
+    active: false,
+  },
+  {
+    id: 101,
+    firstName: "Jada",
+    lastName: "Zboncak",
+    email: "Lambert_Kassulke80@yahoo.com",
+    phoneNumber: "318-638-5578",
+    active: true,
+  },
+  {
+    id: 102,
+    firstName: "Mayra",
+    lastName: "Mayert",
+    email: "Cathy_Rowe@hotmail.com",
+    phoneNumber: "397-482-1133",
+    active: true,
+  },
+  {
+    id: 103,
+    firstName: "Agnes",
+    lastName: "Hilpert",
+    email: "Corrine_Conn@hotmail.com",
+    phoneNumber: "201-377-3061",
+    active: true,
+  },
+  {
+    id: 104,
+    firstName: "Reva",
+    lastName: "Windler",
+    email: "Bernice.Robel@yahoo.com",
+    phoneNumber: "238-860-2209",
+    active: true,
+  },
+  {
+    id: 105,
+    firstName: "Theodore",
+    lastName: "Yost",
+    email: "Clark_Paucek@yahoo.com",
+    phoneNumber: "947-385-8053",
+    active: false,
+  },
+  {
+    id: 106,
+    firstName: "Taylor",
+    lastName: "Krajcik",
+    email: "Stanton.Bernhard14@yahoo.com",
+    phoneNumber: "165-466-2783",
+    active: true,
+  },
+  {
+    id: 107,
+    firstName: "Furman",
+    lastName: "Crist",
+    email: "Noemie_Stokes89@gmail.com",
+    phoneNumber: "437-319-4752",
+    active: true,
+  },
+  {
+    id: 108,
+    firstName: "Maryjane",
+    lastName: "Bogan",
+    email: "Dominic8@gmail.com",
+    phoneNumber: "189-593-1576",
+    active: true,
+  },
+  {
+    id: 109,
+    firstName: "Giovanni",
+    lastName: "Russel",
+    email: "Reba7@yahoo.com",
+    phoneNumber: "081-536-5046",
+    active: true,
+  },
+];
+
+// Using CommonJS style export so we can consume via Node (without using Babel-node)
+module.exports = {
+  contacts,
+};

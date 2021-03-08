@@ -1,0 +1,17 @@
+{
+  "name": "contacts",
+  "description": "Address book",
+  "scripts": {
+    "start": "start-api",
+    "prestart-api": "node tools/createMockDb.js",
+    "start-api": "node tools/apiServer.js"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+
+  }
+
+}
